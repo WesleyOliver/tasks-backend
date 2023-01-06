@@ -12,7 +12,7 @@ pipeline {
             }
         }
         stage ('Sonar Analysis'){
-            evironment {
+            environment {
                 scannerHome = tool 'SONAR_SCANNER'
             }
             steps {
