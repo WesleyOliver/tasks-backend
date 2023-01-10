@@ -25,7 +25,7 @@ public class TaskController {
 	
 	@GetMapping
 	public List<Task> findAll() {
-		return todoRepo.findAll();
+		return todoRepo.findAll(); 
 	}
 	
 	@PostMapping
